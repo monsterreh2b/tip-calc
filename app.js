@@ -1,3 +1,9 @@
+console.log(s);
+
+let grandTotal = document.getElementById("grandtotal-06212022");
+grandTotal.setAttribute("value", grandTotalValue);
+
+let grandTotalValue = document.getElementById("grandtotal-06212022").value;
 
 
 //const eighteenValue = document.getElementById("18pct");
@@ -9,12 +15,6 @@ let btn = document.getElementById("calculate");
 
 btn.addEventListener("click", function () {
 
-    console.log(grandTotalValue);
-
-    let grandTotal = document.getElementById("grandtotal-06212022");
-    grandTotal.setAttribute("value", grandTotalValue);
-
-    let grandTotalValue = document.getElementById("grandtotal-06212022").value;
     
 
  
