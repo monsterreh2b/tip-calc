@@ -1,5 +1,3 @@
-console.log(s);
-
 let grandTotal = document.getElementById("grandtotal-06212022");
 grandTotal.setAttribute("value", grandTotalValue);
 
